@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC28C951-5DA7-49F8-81B2-16DA36B309DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{06FD01E7-B2CD-4BCF-B347-453664B9B3B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{B31F3938-24FF-4BED-B881-84279840106E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{BEB95A66-E0B7-4B85-90B7-83A3C78A8B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dernek-Takip-Projesi.Business Layer", "src\Business Layer\Dernek-Takip-Projesi.Business Layer\Dernek-Takip-Projesi.Business Layer.csproj", "{25410039-9CC8-440E-A4B0-2E50D60DB389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dernek-Takip-Projesi.Data Access Layer", "src\Data Access Layer\Dernek-Takip-Projesi.Data Access Layer\Dernek-Takip-Projesi.Data Access Layer.csproj", "{3BCCA531-0EBC-4F80-9AF3-A4C74573301B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dernek-Takip-Projesi.Presentation Layer", "src\Presentation Layer\Dernek-Takip-Projesi.Presentation Layer\Dernek-Takip-Projesi.Presentation Layer.csproj", "{9840D755-7631-44CA-9C31-253FB2F6EC5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{C6A63415-6620-496E-A6A2-6C27D7223063}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Dernek-Takip-Projesi", "Setup\Dernek-Takip-Projesi\Dernek-Takip-Projesi.vdproj", "{D493D9D0-F9AE-4E2F-9FAF-7312DFEA73C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25410039-9CC8-440E-A4B0-2E50D60DB389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25410039-9CC8-440E-A4B0-2E50D60DB389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25410039-9CC8-440E-A4B0-2E50D60DB389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25410039-9CC8-440E-A4B0-2E50D60DB389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCCA531-0EBC-4F80-9AF3-A4C74573301B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCCA531-0EBC-4F80-9AF3-A4C74573301B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCCA531-0EBC-4F80-9AF3-A4C74573301B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCCA531-0EBC-4F80-9AF3-A4C74573301B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9840D755-7631-44CA-9C31-253FB2F6EC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9840D755-7631-44CA-9C31-253FB2F6EC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9840D755-7631-44CA-9C31-253FB2F6EC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9840D755-7631-44CA-9C31-253FB2F6EC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D493D9D0-F9AE-4E2F-9FAF-7312DFEA73C0}.Debug|Any CPU.ActiveCfg = Release
+		{D493D9D0-F9AE-4E2F-9FAF-7312DFEA73C0}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06FD01E7-B2CD-4BCF-B347-453664B9B3B1} = {AC28C951-5DA7-49F8-81B2-16DA36B309DE}
+		{B31F3938-24FF-4BED-B881-84279840106E} = {AC28C951-5DA7-49F8-81B2-16DA36B309DE}
+		{BEB95A66-E0B7-4B85-90B7-83A3C78A8B64} = {AC28C951-5DA7-49F8-81B2-16DA36B309DE}
+		{25410039-9CC8-440E-A4B0-2E50D60DB389} = {06FD01E7-B2CD-4BCF-B347-453664B9B3B1}
+		{3BCCA531-0EBC-4F80-9AF3-A4C74573301B} = {B31F3938-24FF-4BED-B881-84279840106E}
+		{9840D755-7631-44CA-9C31-253FB2F6EC5F} = {BEB95A66-E0B7-4B85-90B7-83A3C78A8B64}
+		{D493D9D0-F9AE-4E2F-9FAF-7312DFEA73C0} = {C6A63415-6620-496E-A6A2-6C27D7223063}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69934B0B-EF71-468B-BD54-3DC82F1CCE76}
+	EndGlobalSection
+EndGlobal

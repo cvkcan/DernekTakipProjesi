@@ -1,0 +1,3 @@
+{
+  "ConnectionStrings": "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=LocalDb.mdb;Persist Security Info=True"
+}
